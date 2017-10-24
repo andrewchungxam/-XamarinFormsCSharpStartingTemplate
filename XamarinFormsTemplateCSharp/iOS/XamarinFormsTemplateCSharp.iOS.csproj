@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
-    <ProjectGuid>{491640A6-4ACF-493E-B7F3-9D01124937B8}</ProjectGuid>
+    <ProjectGuid>{3F184E33-98A0-4564-8C29-4FAE5164963E}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ThoughtsAndPrayersToo.iOS</RootNamespace>
-    <AssemblyName>ThoughtsAndPrayersToo.iOS</AssemblyName>
+    <RootNamespace>XamarinFormsTemplateCSharp.iOS</RootNamespace>
+    <AssemblyName>XamarinFormsTemplateCSharp.iOS</AssemblyName>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
@@ -23,7 +23,7 @@
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchFastDev>true</MtouchFastDev>
     <MtouchProfiling>true</MtouchProfiling>
-    <IOSDebuggerPort>45831</IOSDebuggerPort>
+    <IOSDebuggerPort>17378</IOSDebuggerPort>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchArch>x86_64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
@@ -72,7 +72,7 @@
     <MtouchProfiling>true</MtouchProfiling>
     <MtouchFloat32>true</MtouchFloat32>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
-    <IOSDebuggerPort>44172</IOSDebuggerPort>
+    <IOSDebuggerPort>59815</IOSDebuggerPort>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchArch>ARM64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
@@ -133,7 +133,7 @@
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
   </ItemGroup>
-  <Import Project="..\ThoughtsAndPrayersTooShared\XamarinFormsTemplateCSharp.projitems" Label="Shared" Condition="Exists('..\ThoughtsAndPrayersTooShared\XamarinFormsTemplateCSharp.projitems')" />
+  <Import Project="..\XamarinFormsTemplateCSharp\XamarinFormsTemplateCSharp.projitems" Label="Shared" Condition="Exists('..\XamarinFormsTemplateCSharp\XamarinFormsTemplateCSharp.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
 </Project>

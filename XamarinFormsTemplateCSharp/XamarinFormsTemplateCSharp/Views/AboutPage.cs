@@ -147,7 +147,7 @@ namespace XamarinFormsTemplateCSharp.Views
 			(
 				new Span()
 				{
-					Text = ".",
+					Text = " ",
 				}
 			);
 

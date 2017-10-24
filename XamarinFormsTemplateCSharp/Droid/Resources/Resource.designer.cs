@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("ThoughtsAndPrayersToo.Droid.Resources.Resource", IsApplication = true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("XamarinFormsTemplateCSharp.Droid.Resources.Resource", IsApplication = true)]
 
-namespace ThoughtsAndPrayersToo.Droid.Resources
+namespace XamarinFormsTemplateCSharp.Droid.Resources
 {
 
 
@@ -26,7 +26,7 @@ namespace ThoughtsAndPrayersToo.Droid.Resources
 
         public static void UpdateIdValues()
         {
-            global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::ThoughtsAndPrayersToo.Droid.Resources.Resource.Attribute.actionBarSize;
+            global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::XamarinFormsTemplateCSharp.Droid.Resources.Resource.Attribute.actionBarSize;
         }
 
         public partial class Animation

@@ -5,9 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-using XamarinFormsTemplateCSharp;
-
-namespace ThoughtsAndPrayersToo.iOS
+namespace XamarinFormsTemplateCSharp.iOS
 {
     [Register("AppDelegate")]
     public partial class AppDelegate : global::Xamarin.Forms.Platform.iOS.FormsApplicationDelegate
@@ -16,6 +14,8 @@ namespace ThoughtsAndPrayersToo.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
+
+
 
             return base.FinishedLaunching(app, options);
         }

@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDisplayName</key>
-	<string>ThoughtsAndPrayersToo</string>
+	<string>XamarinFormsTemplateCSharp</string>
 	<key>CFBundleName</key>
-	<string>ThoughtsAndPrayersToo</string>
+	<string>XamarinFormsTemplateCSharp</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.chung.ThoughtsAndPrayersToo.ThoughtsAndPrayersToo</string>
+	<string>com.chung.xamarin.XamarinFormsTemplateCSharp</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>

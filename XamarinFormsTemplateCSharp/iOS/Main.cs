@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace ThoughtsAndPrayersToo.iOS
+namespace XamarinFormsTemplateCSharp.iOS
 {
     public class Application
     {
